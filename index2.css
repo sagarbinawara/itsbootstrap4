@@ -1,0 +1,39 @@
+.jumbotron{text-align:center;
+            
+              background-image: url("img/hero_image.jpg");
+			  background-image:cover;
+               color: white;
+			  }
+.btn-lg{font-size:35px;}
+.jumbotron h1{font-family: 'Arvo', serif;margin-bottom:30px;margin-top:5px;}
+.jumbotron p{margin-bottom:30px;font-weight:400px;padding:0 50px}
+.involve{background-color:#f2f2f2;}
+.mainpage {text-align:center;padding-top:30px;padding-bottom:20px;}
+.mainpage h2,.mainpage h3{color:#E84C3C;text-transform:uppercase;font-family: 'Arvo', courier, serif;}
+.mainpage h2{font-size:30px;}
+.mainpage h3{font-size:25px;}
+.mainpage p{font-size:20px;font-weight:600;}
+.mainpage a{color:#E84C3C;}
+.mainpage a:hover {color:#E84C3C;text-decoration:none;opacity:0.5;}
+.mainpage hr{border-top:1px solid #E84C3C;width:150px;margin-top:15px;}
+footer {
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+@media (max-width: 766px) { 
+
+	.jumbotron h1 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+
+}
